@@ -1,0 +1,176 @@
+.top {
+  background-color: #CCF3EE;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  background-color: #F9F3EE;
+padding-top: 80px;
+padding bottom: 100px;
+/*  margin = 100px for the top and bottom and 0 for the left and right */
+
+
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color:  #CCF3EE;
+padding: 50PX 0 20PX;
+}
+.coppyright{
+  color:  black;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /*  Margin  works in Clock wise direction ( Top right botoom left )*/
+  text-align: left;
+
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-dsa{
+  width: 25%;
+  float: right;
+  /* ony use float for wrapig around the text */
+margin-left: 30px;
+}
+/*.Design-Development{
+  clear: left;
+   it use to clear the left side of the text or say the margin b/w image and text it prevent wrping text to the image or any thing prenset there */
+
+/*.problem-solving{
+  clear: right;
+
+}*/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.top-cloud1 {
+  position: absolute;
+  right: 350px;
+  top: 356px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 1000px;
+  top: 50px;
+}
+
+.bottom-cloud2 {
+  position: absolute;
+  left: 200px;
+  top: 350px;
+}
+
+.Myself {
+  width: 150px;
+  height: 150px;
+}
+
+body {
+  color: : #040303;
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  color: #66BFBF;
+  line height: 5;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  margin-top: 100px;
+  font-family: cursive;
+  font-size: 350.5%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+
+  color: #66BFBF;
+  font-family: 'Montserrat', serif;
+  padding bottom: 100px;
+  /*  pading provide spoace or can be say margin here it is the bottom of the text 100px*/
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+}
+
+p {
+  font-weight: normal;
+  font-size: 15px;
+  margin: auto 0 auto;
+
+  line-height: 2;
+}
+/*   hr tag thIS is use to set the horizontal line int the website  */
+hr{
+  border: dotted  #B4F2E1 6PX;
+  border-bottom: none;
+  width: 8%;
+  margin: 100px auto;
+}
+.contact-me1{
+  width: 40%;
+  margin: 40px auto 60px;
+  /* 40 px from the top and auto from the left and right  and 60 px from the bottom */
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #E4F9F5);
+  background-image: -moz-linear-gradient(top, #11cdd4, #E4F9F5);
+  background-image: -ms-linear-gradient(top, #11cdd4, #E4F9F5);
+  background-image: -o-linear-gradient(top, #11cdd4, #E4F9F5);
+  background-image: linear-gradient(to bottom, #11cdd4, #E4F9F5);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat',sans-serif;
+  color: #020303;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfc89;
+  background-image: -webkit-linear-gradient(top, #3cfc89, #4597d6);
+  background-image: -moz-linear-gradient(top, #3cfc89, #4597d6);
+  background-image: -ms-linear-gradient(top, #3cfc89, #4597d6);
+  background-image: -o-linear-gradient(top, #3cfc89, #4597d6);
+  background-image: linear-gradient(to bottom, #3cfc89, #4597d6);
+  text-decoration: none;
+}
+
+.footer-link{
+  color: black;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    /* THis is to remove the under line  to the anhor tag */
+}
+.footer-link:hover{
+  color: #11cdd4;
+}
